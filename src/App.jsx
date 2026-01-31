@@ -1,12 +1,16 @@
-import React from 'react'
+import React, {useState} from 'react'
 import Navbar from '../src/components/Navbar'
 import { BrowserRouter as Router } from 'react-router-dom';
 
-function App() {
+
+const App = () => {
+
+    const [theme, setTheme] = useState('light');
+
     return (
         <Router>
-            <div>
-                <Navbar />
+            <div className={`container ${theme}`}>
+                <Navbar theme={theme} setTheme={setTheme}/>
             </div>
         </Router>
     )

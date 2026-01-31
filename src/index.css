@@ -4,3 +4,14 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    background: #ced8ff;
+    transition: all 0.3s ease;
+}
+
+.container.dark {
+  background: #222;
+}
