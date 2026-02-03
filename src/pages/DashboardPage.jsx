@@ -2,6 +2,7 @@
 import React, { useState } from 'react';
 
 
+
 import {
     MenuFoldOutlined,
     MenuUnfoldOutlined,
@@ -9,7 +10,7 @@ import {
     UserOutlined,
     VideoCameraOutlined,
 } from '@ant-design/icons';
-import { Button, Layout, Menu, theme } from 'antd';
+import {Button, Layout, Menu, theme, Row, Col} from 'antd';
 const { Header, Sider, Content } = Layout;
 
 const DashboardPage = () => {
@@ -58,7 +59,7 @@ const DashboardPage = () => {
             borderRadius: borderRadiusLG,
           }}
         >
-          Content
+
         </Content>
       </Layout>
     </Layout>

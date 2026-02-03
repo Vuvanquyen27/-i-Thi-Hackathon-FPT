@@ -72,3 +72,15 @@ ul li{
 .dark .search-box{
     background-color: #fff;
 }
+
+
+.user-info {
+    display: flex;        /* Xếp các phần tử con nằm ngang hàng */
+    align-items: center;  /* Căn giữa theo chiều dọc cho đẹp */
+    gap: 10px;
+    flex-shrink: 0;/* Tạo khoảng cách giữa Avatar và Tên (xích qua bên phải) */
+}
+
+.user-info h3{
+    white-space: nowrap;
+}
